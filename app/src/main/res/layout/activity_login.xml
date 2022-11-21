@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/rectimage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/ic_rectangle"
+        android:layout_marginTop="210dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp">
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/keaniaone"
+            android:text="Sign in"
+            android:textSize="14pt"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_corner_rectangle"
+            android:layout_centerHorizontal="true"
+            android:text="email"
+            android:padding="12dp"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sign"
+            android:fontFamily="@font/keaniaone" />
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_corner_rectangle"
+            android:layout_centerHorizontal="true"
+            android:text="password"
+            android:padding="12dp"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/email"
+            android:fontFamily="@font/keaniaone" />
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email1"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:text="forgot password"
+            android:fontFamily="@font/keaniaone"
+            android:textColor="@color/black"
+            android:textSize="10pt"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            android:layout_height="58dp"
+            android:layout_width="209dp"
+            android:text="sign in"
+            android:layout_marginTop="50dp"
+            app:cornerRadius="90dp"
+            android:layout_below="@+id/forgotpassword"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:fontFamily="@font/keaniaone"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="i'm new user"
+            android:textColor="@color/black"
+            android:fontFamily="@font/keaniaone"
+            android:textSize="8pt"
+            android:layout_below="@+id/btn1"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:id="@+id/createacc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sign in"
+            android:clickable="true"
+            android:fontFamily="@font/keaniaone"
+            android:textColor="@color/red"
+            android:layout_below="@id/btn1"
+            android:textSize="8pt"
+            android:layout_marginLeft="230dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@color/pink">
+
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape3"
+        android:backgroundTint="@color/pink1"/>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/gambar2"/>
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="search"
+        android:textColor="@color/black"
+        android:textSize="24dp"/>
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/gambar3" />
+
+    <TextView
+        android:layout_width="129dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="280dp"
+        android:text="aksesoris anting Rp.20.000"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="201dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="114dp"
+        android:src="@drawable/gambar4" />
+
+    <TextView
+        android:layout_width="158dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="237dp"
+        android:layout_marginTop="313dp"
+        android:text="aksesoris gelang Rp.45.000"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="188dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="335dp"
+        android:src="@drawable/gambar5" />
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="525dp"
+        android:text="aksesoris kalung Rp.100.000"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="189dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="391dp"
+        android:src="@drawable/gambar6" />
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="229dp"
+        android:layout_marginTop="580dp"
+        android:text="aksesori berbagai gelangs Rp. 60.000"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="686dp"
+        android:src= "@drawable/gambar7" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="687dp"
+        android:src="@drawable/gambar8" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="689dp"
+        android:src= "@drawable/gambar9" />
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="361dp"
+        android:layout_marginTop="686dp"
+        android:src="@drawable/gambar10" />
+
+</RelativeLayout>
